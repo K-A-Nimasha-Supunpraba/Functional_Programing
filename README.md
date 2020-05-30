@@ -1,4 +1,4 @@
-# Functional_Programing - Assigniment 01
+# Functional_Programing - Assigniment
 
 Index Number : 18001653
 
