@@ -11,9 +11,9 @@ object caesarCipher extends App{
 
     val cipher=(algo:(Char,Int,String)=> Char,s:String,key:Int,y:String)=> s.map(algo(_,key,y))
 
-    val encrtption=cipher(En,text,1,alphabet)
+    val encrtption=cipher(En,text,5,alphabet)
 
-    val decryption=cipher(De,encrtption,1,alphabet)
+    val decryption=cipher(De,encrtption,5,alphabet)
 
     println("String : "+text)
     println("Encrtption String : "+encrtption)
